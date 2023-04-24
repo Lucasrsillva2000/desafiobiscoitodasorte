@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto 06 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
+O projeto 07 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
 
 - [Visite o projeto online](https://lucasrsillva2000.github.io/desafiobiscoitodasorte/)
 
