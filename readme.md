@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto 06 - Explorer - desafio 01 </h1>
+<h1 align="center"> Projeto 07 - Explorer - desafio 01 </h1>
 
 <p align="center">
 O Explorer é um programa completo que reúne tudo o que você precisa para desenvolver suas habilidades técnicas e comportamentais, com acompanhamento de uma equipe qualificada da Rocketseat, para alcançar sua primeira vaga no mercado de programação. <br/>
@@ -17,7 +17,7 @@ O Explorer é um programa completo que reúne tudo o que você precisa para dese
 <br>
 
 <p align="center">
-  <img alt="Projeto 06 -Desafio 01 - Biscoito Da Sorte" src=".github/preview.jpg" width="100%">
+  <img alt="Projeto 07 -Desafio 01 - Biscoito Da Sorte" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto 06 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
+O projeto 07 é uma criação de uma Landing-Page para aplicar o conhecimento de JavaScript, CSS e HTML.
 
 - [Visite o projeto online](https://lucasrsillva2000.github.io/desafiobiscoitodasorte/)
 
