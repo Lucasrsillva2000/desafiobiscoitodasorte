@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto 07 é uma criação de um biscoito da sorte que sorteia frases para o seu dia, ele foi feito para aplicar o conhecimento de JavaScript, CSS e HTML.
+O desafio 01 do stage 05 é uma criação de um biscoito da sorte que sorteia frases para o seu dia, ele foi feito para aplicar o conhecimento de JavaScript, CSS e HTML.
 
 - [Visite o projeto online](https://lucasrsillva2000.github.io/desafiobiscoitodasorte/)
 
