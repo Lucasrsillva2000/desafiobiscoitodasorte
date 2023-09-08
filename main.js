@@ -1,48 +1,44 @@
-const screen1 = document.querySelector('.screen1')
-const screen2 = document.querySelector('.screen2')
-const fortuneCookie = document.querySelector('#fortuneCookie')
-const tryAgain = document.querySelector('#tryAgain')
+//falta colocar as animações no css quando interagir com o biscoito
 
-const fortune = [
+const chineseProverb = [
   'O aprendizado é como o horizonte: não há limites.',
   'Não há que ser forte, há que ser flexível.',
-  'Limitações são fronteiras criadas apenas pela nossa mente.',
+  ' Limitações são fronteiras criadas apenas pela nossa mente.',
   'O cão não ladra por valentia e sim por medo.',
   'Procure acender uma vela em vez de amaldiçoar a escuridão.',
-  'A palavra é prata, o silêncio é ouro.',
+  ' A palavra é prata, o silêncio é ouro.',
   'Lembre-se de que grandes realizações e grandes amores envolvem grandes riscos.',
   'Um pouco de perfume sempre fica nas mãos de quem oferece flores.',
   'O homem só envelhece quando os lamentos substituem seus sonhos.',
-  'A persistência realiza o impossível.',
-  'Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.'
+  'A persistência realiza o impossível.'
 ]
 
-fortuneCookie.addEventListener('click', handleTryClick)
-tryAgain.addEventListener('click', handleResetClick)
-document.addEventListener('keydown', function (e) {
-  if (e.key == 'Enter' && screen2.classList.contains('hide')) {
-    handleTryClick()
-  } else if (e.key == 'Enter' && screen1.classList.contains('hide')) {
-    handleResetClick()
-  }
-})
+//variaveis
+const fortuneCookie = document.querySelector('#fortune-cookie')
+const screen1 = document.querySelector('.screen1')
+const screen2 = document.querySelector('.screen2')
+const btnTryAgain = document.querySelector('#try-again')
+const pTextBox = document.querySelector('#chinese-proverb')
+let randomProverb = Math.round(Math.random() * 10)
 
-function handleTryClick(event) {
+//eventos
+fortuneCookie.addEventListener('click', clickButton)
+btnTryAgain.addEventListener('click', tryAgain)
+
+//funções
+function clickButton(event) {
+  event.preventDefault()
+  pTextBox.innerHTML = chineseProverb[randomProverb]
+
   toggleScreen()
-  pickFortune()
 }
 
-function handleResetClick() {
+function tryAgain() {
   toggleScreen()
-}
-
-function pickFortune() {
-  let allFortunes = fortune.length
-  let randomNumber = Math.floor(Math.random() * allFortunes)
-  screen2.querySelector('h2').innerText = `${fortune[randomNumber]}`
+  randomProverb = Math.round(Math.random() * 10)
 }
 
 function toggleScreen() {
-  screen2.classList.toggle('hide')
   screen1.classList.toggle('hide')
+  screen2.classList.toggle('hide')
 }
